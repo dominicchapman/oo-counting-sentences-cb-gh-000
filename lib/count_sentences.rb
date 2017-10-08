@@ -15,7 +15,9 @@ class String
   end
 
   def exclamation?
-
+    # returns true if the string that you are calling this method on ends in an exclamation mark
+    # returns false if the string that you are calling this method on does NOT end in a exclamation mark.
+    self.end_with?('!')
   end
 
   def count_sentences

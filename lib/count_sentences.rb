@@ -24,6 +24,6 @@ class String
     # returns the number of sentences in a string
     # returns zero if there are no sentences in a string
     # returns the number of sentences in a complex string
-    string.split(/\.|\?|\!/).select{|s| s.size != 0 }.count
+    self.split(/\.|\?|\!/).select{|s| s.size != 0 }.count
   end
 end

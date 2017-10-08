@@ -21,6 +21,9 @@ class String
   end
 
   def count_sentences
-
+    # returns the number of sentences in a string
+    # returns zero if there are no sentences in a string
+    # returns the number of sentences in a complex string
+    self.split(/\.|\?|\!/).count
   end
 end
